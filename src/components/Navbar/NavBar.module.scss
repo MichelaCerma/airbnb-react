@@ -1,0 +1,12 @@
+.Navbar {
+  border: 1px solid red;
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  a {
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+  }
+}
