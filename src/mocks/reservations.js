@@ -10,7 +10,7 @@ export const roomList = [
       { author: "Marco", comment: "Excellent service and spacious rooms" },
       { author: "Giulia", comment: "Friendly staff and delicious breakfast" },
     ],
-    imageLocation: "https://picsum.photos/200/300?1",
+    imageLocation: "https://picsum.photos/300/300?1",
     amenities: ["Free Wi-Fi", "Swimming pool", "Fitness center"],
     rating: 4.5,
     contact: {
@@ -38,7 +38,7 @@ export const roomList = [
       { author: "Luca", comment: "Quiet and relaxing atmosphere" },
       { author: "Simona", comment: "Clean rooms and friendly staff" },
     ],
-    imageLocation: "https://picsum.photos/200/300?2",
+    imageLocation: "https://picsum.photos/300/300?2",
     amenities: ["Free parking", "Restaurant", "Spa"],
     rating: 4.2,
     contact: {

@@ -1,26 +1,33 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styles from "./NavBar.module.scss";
-
+import Logo from "../../assets/logo.svg";
 const NavBar = () => {
   return (
     <>
       <nav className={styles.Navbar}>
+        <div className={styles.logo}>
+          <img src={Logo} />
+        </div>
         <ul>
-          <Link to="/">
-            <li>Home</li>
-          </Link>
-          <Link to="/About">
-            <li>About</li>
-          </Link>
-          <Link to="/Contacts">
-            <li>Contacts</li>
-          </Link>
-          <Link to="/Locations">
-            <li>Locations</li>
-          </Link>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+
+          <li>
+            <Link to="/About">About</Link>
+          </li>
+
+          <li>
+            <Link to="/Contacts">Contacts</Link>
+          </li>
+          <li>
+            <Link to="/Locations">Locations</Link>
+          </li>
         </ul>
+        <div className={styles.SignUp}>
+          <Link to="/Login">Login</Link>
+        </div>
       </nav>
-      <Outlet />
     </>
   );
 };

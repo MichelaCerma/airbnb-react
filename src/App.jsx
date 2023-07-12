@@ -9,7 +9,7 @@ import { roomList } from "./mocks/reservations";
 function App() {
   return (
     <>
-      <NavBar />
+      <h1>yoo</h1>
     </>
   );
 }

@@ -1,12 +1,24 @@
 .Navbar {
+  padding: 20px;
   border: 1px solid red;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   ul {
     display: flex;
+    gap: 20px;
     list-style: none;
   }
   a {
     width: fit-content;
     text-decoration: none;
     color: black;
+  }
+  .SignUp {
+    border-radius: 20px;
+    color: white;
+    padding: 10px 30px;
+    background-color: #34987d;
   }
 }
